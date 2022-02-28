@@ -9,7 +9,7 @@ export const Navbar = ({ darkTheme, setDarkTheme }) => {
     <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200">
       <div className="flex justify-between items-center space-x-5 w-screen ">
         <Link to="/">
-          <p className="flex justify-center items-center text-2xl py-1 px-2 hover:motion-safe:animate-bounce  ">
+          <p className="flex justify-center items-center text-2xl py-1 px-2 rounded-xl hover:bg-gray-200  ">
             <FcGoogle />
             <FcSearch />
           </p>
